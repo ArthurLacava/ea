@@ -1,0 +1,455 @@
+/*
+ *  estilos de paragrafo
+ */
+.smallcaps,
+.pager-load-more a,
+.view-lista-de-verbetes .view-filters {
+  font-size: 14px;
+  font-weight: bold;
+  letter-spacing: 0.2em;
+  text-transform: uppercase;
+  text-decoration: none;
+  color:#222;
+}
+.pager-load-more a:hover {text-decoration: underline;}
+/*
+ *  primeiro as características que são iguais em todos os dispositivos MOBILE FIRST
+ */
+
+body {font-family: "Georgia", "Lucida Serif", Serif;color:#222;/*background-image: url("grid.png");background-repeat: no-repeat;*/}
+#page {margin: 0 20px;}
+
+  .conceito h1,
+  .conceito h2,
+  .conceito .inicial-verbete,
+  .view .conceito .smallcaps,
+  .conceito .smallcaps, 
+  .conceito .completo a,
+  .form-item-edit-field-tipo-de-verbete-value-conceito,
+  .conceito .fechar-previa,
+  .conceito .titulo a:hover {color: rgb(40, 55, 140);}
+  .obra h1,
+  .obra h2,
+  .obra .inicial-verbete,
+  .view .obra .smallcaps,
+  .obra .smallcaps,
+  .obra .completo a,
+  .form-item-edit-field-tipo-de-verbete-value-obra,
+  .obra .fechar-previa,
+  .obra .titulo a:hover {color: rgb(45, 150, 150);}
+  .autor h1,
+  .autor h2,
+  .autor .inicial-verbete,
+  .view .autor .smallcaps,
+  .autor .smallcaps,
+  .autor .completo a,
+  .form-item-edit-field-tipo-de-verbete-value-autor,
+  .autor .fechar-previa,
+  .autor .titulo a:hover {color: rgb(100, 22, 76);}
+
+  .correntes h1,
+  .correntes h2,
+  .correntes .inicial-verbete,
+  .view .correntes .smallcaps,
+  .correntes .smallcaps, 
+  .correntes .completo a,
+  .form-item-edit-field-tipo-de-verbete-value-correntes,
+  .correntes .fechar-previa,
+  .correntes .titulo a:hover {color: rgb(237, 52, 35);}
+
+  .subcampos h1,
+  .subcampos h2,
+  .subcampos .inicial-verbete,
+  .view .subcampos .smallcaps,
+  .subcampos .smallcaps, 
+  .subcampos .completo a,
+  .form-item-edit-field-tipo-de-verbete-value-subcampos,
+  .subcampos .fechar-previa,
+  .subcampos .titulo a:hover {color: rgb(25, 94, 47);}
+
+  .instituicoes h1,
+  .instituicoes h2,
+  .instituicoes .inicial-verbete,
+  .view .instituicoes .smallcaps,
+  .instituicoes .smallcaps, 
+  .instituicoes .completo a,
+  .form-item-edit-field-tipo-de-verbete-value-instituicoes,
+  .instituicoes .fechar-previa,
+  .instituicoes .titulo a:hover {color: rgb(254, 200, 25);}
+
+.field-name-field-verbete img {padding: 10px;}
+.view-lista-de-verbetes .view-filters {position: relative;top: 20px;}
+/* --- menu --- */
+#header {position: fixed;top: 0px;left: 20px;right: 20px;z-index: 10;}
+.menu {border-bottom: 1px solid #222;background-color: #fff;padding: 15px 0 10px 0;height: 37px;}
+.menu a {color: #222;text-decoration: none;}
+.item.ea {display: inline-block;font-size: 36px;letter-spacing: .35em;}
+.toggle-nav {font-size: 30px;position: fixed;top: 15px;right: 20px;}
+.menu ul {margin:0; padding: 0;}
+.menu li {padding:20px 0; background-color: #fff;}
+.menu li:last-child {margin-bottom:10px;}
+.menu ul.active {display:none;}
+#search-block-form {position: relative;width: 100%;height: 40px;}
+#search-block-form input.form-text {border: 1px solid #ccc;border-radius: 3px;background-color: #fff;text-transform: lowercase;height: 30px;}
+#search-block-form input[type="submit"] {border: 1px solid #ccc;border-radius: 3px;background-color: #fff;text-transform: lowercase;height: 30px;width: 80px;color: #ccc;}
+
+.expande {z-index: 10;}
+.expandidos {display: none;position: fixed;top: 40px;width: 370px;background-color: #fff;}
+.expandidos a {padding-top: 29px;display: block;}
+.expandidos a:last-child{padding-bottom: 20px;padding-top: 24px;}
+
+/* --- institucional --- */
+.page-home #main, 
+.page-node-1 #main {margin-top:80px;}
+.page-home #main h2, 
+.page-node-1 #main h1, 
+.field-name-field-orientacao-geral-obra-1- .field-label {font-size: 36px;font-weight: normal;line-height: 1.2em;margin:60px 0 40px 0;}
+.field-name-field-ficha-tecnica {text-align: center;margin: 60px auto;}
+.field-name-field-ficha-tecnica strong {text-transform: uppercase;letter-spacing: .2em;font-size: 14px;}
+.field-name-field-logo-ea {font-size: 150px;height: 120px;letter-spacing: 0.3em;margin: 60px auto;text-transform: uppercase;width: 260px;padding-top: 60px;}
+.field-name-field-logos .field-item {margin: 30px auto;width: 220px;}
+.field-name-field-logos.field-type-image {display: none;}
+.page-node-11 #page-title,
+.page-node-12 #page-title {margin-top: 350px;}
+
+/* --- verbete individual --- */
+.view-verbete-rotulo h1 {position: absolute;top:70px;font-size: 24px; font-weight: normal;line-height: 1.2em;}
+.node-type-verbete .pane-node-field-verbete {margin-top:220px;}
+.node-type-verbete .field-name-field-verbete a {text-decoration: none;color: black;border-bottom: dotted 2px;}
+.node-type-verbete .field-name-field-verbete a:hover {border-bottom: solid 2px;}
+.rotulo-verbete p {margin: 5px 0 30px;}
+.inicial-verbete {font-size: 200px;height: 200px;width: 200px;margin: 0 auto;text-align: center;position: relative;top: 70px;text-transform: uppercase;}
+
+/* --- lista de verbetes --- */
+.previa.fundo, 
+.um-ou-outro .previa.smallcaps,
+.um-ou-outro .inicial-verbete {display: none;}
+.view-lista-de-verbetes {margin-bottom: 50px;}
+.view-lista-de-verbetes h2,
+.view-taxonomy-term h2 {margin: 50px 0 15px 0;font-weight: normal;line-height: 1.2em;}
+.view-lista-de-verbetes .views-row p,
+.view-taxonomy-term .views-row p {margin: 5px 0;}
+
+/* --- índice alfabético --- */
+.indice-alfabetico .view-header {display: none;}
+.cada-letra h3 {height: 140px;font-weight: normal;margin-top: 80px;}
+.cada-letra .titulos-cada-letra {margin-top: 50px;}
+.cada-letra .conteudo .titulo {margin: 15px 0;}
+.cada-letra .conteudo a {color: #222;text-decoration: none;font-size: 20px;}
+.cada-letra .conteudo a.smallcaps {font-size: 14px;}
+.cada-letra .conteudo .previa.smallcaps {display: none;}
+#edit-field-tipo-de-verbete-value-wrapper label:first-child {display: none;}
+
+/* --- resultado de busca --- */
+.page-search #search-form {position: relative;top: 30px;}
+.page-search #search-form label {display: none;}
+.page-search #search-form input.form-text {border: 1px solid #ccc;border-radius: 3px;background-color: #fff;text-transform: lowercase;height: 30px;width: 200px;}
+.page-search #search-form input[type="submit"] {border: 1px solid #ccc;border-radius: 3px;background-color: #fff;text-transform: lowercase;height: 30px;width: 80px;color: #ccc;}
+.page-search h2 {font-size: 36px;font-weight: normal;}
+.page-search .search-snippet-info {padding: 0;}
+.page-search .search-snippet-info p {font-size: 16px;line-height: 1.4em;}
+.page-search .search-info {display: none;}
+.page-search .search-results h3 {font-weight: normal;font-size: 24px;}
+.page-search .search-results h3 a {color: #222; text-decoration: none;}
+.page-search .search-results h3 a:hover {text-decoration: underline;}
+.page-search ol.search-results {margin:0;padding: 0; }
+.page-search li.search-result {margin: 0;padding: 0;}
+
+/*
+ *  Q U E R I E S
+ */
+@media all and (min-width: 768px) {
+
+  /* --- menu --- */
+  .toggle-nav {display:none;}
+  .menu ul.active {display:inline-block;}
+  .menu {padding:10px 0;}
+  .container-inline {float:right;display:inline-block;}
+  .menu .item {width: 300px;margin-right: 17px;}
+  .menu .item.ea {margin-right: 16px;}
+  .menu ul {margin: 0;padding: 0; display: inline-block; }
+  .menu li {display: inline-block;margin: 0;}
+  .menu .active li:last-child {margin: 0 0 0 15px;position: relative;top: 4px;}
+
+  /* --- institucional --- */
+  .page-home #main, .page-node-1 #main {margin-top: 350px;}  
+  #page-title, .pane-title {font-size: 36px;font-weight: normal;padding-bottom: 100px;}
+  .field-name-field-logo-ea {position: absolute;top: 118px;left: 648px;font-size: 320px;line-height: 320px;letter-spacing: .4em;z-index: -1;margin: 0;padding: 0;height: 237px;}
+  .page-home .field-name-field-logo-ea {top: 115px;}
+  .field-name-field-ficha-tecnica {position: absolute;top: 514px;left: 660px;z-index: -1;text-align: left;margin: 0;}
+  .field-name-field-ficha-tecnica p {font-size: 16px;line-height: 22.6px;}
+  .field-name-field-ficha-tecnica strong {font-size: 14px;letter-spacing: .2em;text-transform:uppercase;}
+  .field-name-field-orientacao-geral-obra-1- .field-label {font-size: 36px;font-weight: normal;padding-top: 100px;padding-bottom: 50px;}  
+  p, 
+  .field-name-field-orientacao-geral-obra-1- {font-size: 20px;line-height: 30px;}
+  .field-name-field-introducao, 
+  .field-name-field-orientacao-geral-obra-1-,
+  .field-name-field-orientaco-geral-obra-2- {width: 600px;}
+  .field-name-field-tipos-de-verbetes .field-item {width: 300px;margin-right:20px;float: left;margin-bottom: 50px;}
+  .field-name-field-tipos-de-verbetes .field-item p {font-size: 16px;line-height: 24px;}
+  .field-name-field-orientaco-geral-obra-2- {clear: left;}
+  .field-name-field-logos {margin-top: 100px;}
+  .field-name-field-logos .field-item {width: 220px;margin-right: 80px;float: left;margin-bottom: 50px;}
+  .field-name-field-logos .field-item:last-child {margin-right: 0px;}
+
+  /* --- verbete individual --- */
+  .img300 {float: right;width: 290px;}
+  .img600 {float: right;width: 600px;}
+  .field-name-field-verbete .caption {font-size: 8px;text-transform: uppercase;letter-spacing: .2em;position: relative;}
+  .field-name-field-verbete .caption .lgd-img {position: absolute;right: 20px;top: -5px;}
+  .pane-node-field-tipo-de-verbete {position: absolute;top:125px;color: #ccc;font-size: 14px;font-weight: bold;letter-spacing: 0.2em;text-transform: uppercase;}
+  .view-verbete-rotulo {margin-top: 150px;}
+  .view-verbete-rotulo h1 {width: 600px;font-size: 36px;font-weight: normal;margin-bottom: 50px;position: absolute;top: 123px;}
+  .inicial-verbete {text-align: left;position: fixed;left: 660px;font-size: 320px;line-height: 223px;top:167px;text-transform: uppercase;width: 290px;}
+  .view-verbete-rotulo .rotulo-verbete {position: fixed;left: 980px;top:141px;width: 300px;}
+  .view-verbete-rotulo .rotulo-verbete .smallcaps {margin: 20px 0 0 0;}
+  .view-verbete-rotulo .rotulo-verbete p {font-size: 16px;line-height: 22px;margin: 0 0 6px 0;}
+  .view-verbete-rotulo .rotulo-verbete a {text-decoration: none;color: #222;}
+  .view-verbete-rotulo .rotulo-verbete a:hover {text-decoration: underline;}
+  .rotulo-verbete .biblio {height: 300px;overflow-x:hidden;display: block;}
+  .rotulo-verbete .biblio p {margin: 20px 0;}
+  .node-type-verbete .pane-node-field-verbete {width: 600px;margin-bottom: 100px;margin-top: 310px;}
+
+  /* --- lista de verbetes --- */
+  .page-lista-de-verbetes #page-title {display: none;}
+  .lista-celulas {margin-top: 145px;}
+  .view-lista-de-verbetes {width: 1000px;}
+  .view-lista-de-verbetes .view-header {display: block;}
+  .view-lista-de-verbetes .view-filters {position: fixed;left: 980px;top: 160px;}
+  .view-lista-de-verbetes .view-filters label.option {font-weight: bold;}
+  .celula {position: relative;width: 300px; height: 323px;overflow: hidden;margin: 0 20px 100px 0;float: left;}
+  .celula .inicial {z-index: -1;}
+  .celula .inicial h2 {font-size: 20px;line-height: 1.2em;color: #222;font-weight: normal;margin: 20px 0;}
+  .celula .inicial p {font-size: 16px;line-height: 1.4em;color: #222;}
+  .um-ou-outro .previa.smallcaps,
+  .um-ou-outro .inicial-verbete {display: block;}
+  .celula .um-ou-outro {display: none;position: absolute;top: 0;left: 0;width: 300px; height: 307px;background-color: #fff;}
+  .celula:hover .um-ou-outro {display: block;}
+  .celula .um-ou-outro .previa {cursor: pointer;position: absolute;top: 0;left: 0;height:40px;padding-bottom: 113px;width: 300px;text-align: center;z-index: 10;opacity: .2;}
+  .celula .um-ou-outro .previa:hover {opacity: 1;}
+  .celula .um-ou-outro .inicial-verbete {position: absolute;top: 40px;left: 0;width: 300px; height: 307px;}
+  .celula .um-ou-outro .completo {cursor: pointer;position: absolute;top: 153px;left: 0;height:40px;padding-top: 134px;width: 300px;text-align: center;z-index: 10;opacity: .2;}
+  .celula .um-ou-outro .completo a {text-decoration: none;padding-top: 134px;}
+  .celula .um-ou-outro .completo:hover {opacity:1;}
+  .previa.fundo {display: none;position: fixed;top: 0;left: 0;background-color: rgba(0,0,0,.7);z-index: 50;width: 100%;height: 100%;}
+  .previa img {display: none;}
+  .fundo-claro {position: fixed;top: 200px;width: 100%;background-color: #fff;height: 465px;}
+  .fundo-claro h2 {margin: 40px 20px;width: 600px;font-size: 24px;font-weight: normal;}
+  .previa .fundo-claro p:first-child {margin-top: 40px;}
+  .previa .fundo-claro p {margin: 5px 20px;width: 600px;font-size: 16px;line-height: 1.4em;}
+  .fundo-claro a.smallcaps {margin:0 20px;text-decoration: none;position: relative;top: 10px;}
+  .fundo-claro a:hover {text-decoration: underline;}
+  .fundo-claro .inicial-verbete {top: 250px;}
+  .fundo-claro .info {position: absolute;left: 990px;top: 25px;width: 300px;}
+  .fundo-claro .info p {margin: 0;width: 300px;}
+  .fundo-claro .info .smallcaps {margin-top: 20px;}
+  .fechar-previa {cursor: pointer;position: absolute;right: 30px;top: 20px;font-size: 50px;}
+
+  /* --- índice alfabético --- */
+  .page-indice-alfabetico #main {padding-bottom: 600px;}
+  .page-indice-alfabetico #page-title {display: none;}
+  .indice-alfabetico h3 {font-weight: normal;}
+  .indice-alfabetico .indice-menu {position: fixed;top: 59px;height: 50px;background-color: #fff;width: 100%;z-index: 2;font-size: 24px;margin-left: 320px}
+  .indice-alfabetico .indice-menu .views-row {display: none;}
+  .indice-alfabetico .indice-menu h3 {text-transform: uppercase;display: inline-block;margin-top: 20px;font-size: 24px;}
+  .indice-alfabetico .indice-menu h3 a {text-decoration: none;color: #222;}
+  .indice-alfabetico .view-content .indice-menu h3:last-child .dot {display: none;}
+  .indice-alfabetico .view-content .inicial-verbete {position: relative;left: 0;top: 0;}
+  .indice-alfabetico .cada-letra {width: 680px;clear: left;display: inline-block;padding-top: 125px;}
+  .indice-alfabetico .cada-letra .inicial-verbete {display: inline-block;padding-top: 155px;position: relative;top: -175px;}
+  .indice-alfabetico > .view-content h3 {width: 300px;float: left;height: 203px;}
+  .indice-alfabetico .titulos-cada-letra {float: left;width: 350px;padding-left: 20px;}
+  .indice-alfabetico .cada-letra .conteudo {margin:0 0 15px 0;}
+  .cada-letra .conteudo .titulo {margin: 0;}
+  .cada-letra .titulo a {color: #222;text-decoration: none;font-size: 24px;}
+  .indice-alfabetico .cada-letra .titulo a:hover {text-decoration: underline;}
+  .indice-alfabetico .cada-letra .previa.smallcaps {color: #ccc;cursor: pointer;display: block;}
+  .indice-alfabetico .cada-letra .previa.smallcaps:hover {color: #222;}
+  .indice-alfabetico .cada-letra .fundo-claro .inicial-verbete {top: 112px;left: 660px;position: fixed;}
+  
+  /* --- resultados da palavra chave --- */
+  .page-taxonomy-term #page-title {margin-top: 155px;}
+  .page-taxonomy .tabs-primary {display: none;}
+
+  /* --- resultados da busca --- */
+  .page-search h1 {display: none;}
+  .page-search h2 {margin-top: 136px;}
+  .page-search .menu {margin-top: 5px;height: 31px;}
+  .page-search .menu .active li:last-child {display: none;}
+  .page-search #search-form {position: fixed;top: 12px;left: 990px;z-index: 50;}
+  .page-search ol.search-results {width: 1000px;margin:0;padding: 0; }
+  .page-search li.search-result {width: 300px;float: left;margin-right: 20px;margin-bottom: 120px;height: 200px;}
+
+}
+
+/*
+ *  R E V I S Ã O
+ */
+.not-logged-in .tabs-primary {position: fixed;top: 162px;left:1092px;z-index: 10;}
+.not-logged-in .tabs-primary li {list-style: none;}
+.not-logged-in .tabs-primary a {color:#ccc;text-decoration: none;text-transform: uppercase;letter-spacing: .2em;font-size: 14px;font-weight: bold;;}
+.not-logged-in .tabs-primary a:hover {color: #222;}
+.not-logged-in .tabs-primary .is-active {display: none;}
+.page-node-revisions .region-help {width: 600px;}
+.page-node-revisions .tableheader-processed {width: 600px;}
+.page-node-revisions .tableheader-processed th {text-align: left;text-transform: uppercase;font-size: 14px;letter-spacing: .2em;}
+.page-node-revisions .tableheader-processed .revision-log {font-size: 16px;line-height: 1.4em;padding: 20px 0;}
+.page-node-revisions .tableheader-processed td {padding: 20px;}
+/*
+ *  EDIÇÃO E ADIÇÃO DE CONTEÚDOS ------ A D M I N I S T R A Ç Ã O
+ */
+
+/* --- tela de logar-se --- */
+.page-user .tabs-primary,
+.page-user #user-login .description { display: none;}
+.page-user #user-login {position: fixed;top: 155px;}
+.page-user #user-login label {font-size: 12px;font-weight: normal;letter-spacing: 0.2em;text-transform: uppercase;}
+.page-user #user-login input {border: 1px solid #ccc;padding: 5px;width: 200px;}
+.page-user #user-login #edit-actions input {width: 100px;margin: 20px 0;padding: 3px 10px;text-transform: lowercase;background-color: #fff;border: 1px solid #ccc;border-radius: 3px;color: #ccc;}
+.page-user #user-login #edit-actions input:hover {color:#222;border: 1px solid #222;}
+
+/* --- primeira tela após logar-se --- */
+#navigation {position: fixed; top: 64px;z-index: 20;background-color: #fff;right: 20px;}
+.logged-in #navigation .menu {border:none; }
+.logged-in #navigation .menu li {float: none;padding: 0;}
+.logged-in #navigation .menu li a {color: red;border: 1px solid red;border-radius: 3px;color: red;padding: 3px 10px;text-decoration: none;}
+.logged-in #navigation .menu li a:hover {color: #fff;background-color: red;}
+.page-user #page-title {display: none;}
+.page-user .pane-title {padding: 0;margin-top: 155px;}
+.view-administra-o-de-verbetes .view-header {position: fixed;left: 990px;width: 300px;text-align: center;top: 205px;}
+.view-administra-o-de-verbetes .view-header a.novo-verbete {color: #ccc;text-decoration: none;}
+a.novo-verbete .butao {width: 300px;height: 280px;display: block;}
+/*.view-administra-o-de-verbetes .view-header .butao:hover {background-color: rgb(230,230,230);z-index: 10;}*/
+.view-administra-o-de-verbetes .view-header a.novo-verbete:hover {color: #000;}
+.view-administra-o-de-verbetes .view-header .inicial-verbete {display: block;position: relative;left: 0;top: 0;width: inherit;height: 220px;text-align: center;}
+.view-administra-o-de-verbetes .view-filters label {text-transform: uppercase;font-size: 10px;letter-spacing: .2em;}
+.view-administra-o-de-verbetes .view-filters input[type=submit] {border-radius: 3px;border: 1px red solid;background-color: #fff;color: red;text-transform: lowercase;}
+.page-user a.editar-institucional {color: red;left: 830px;z-index: 30;font-size: 14px;text-decoration: none;}
+.page-user a.editar-institucional:hover {text-decoration: underline;}
+.view-administra-o-de-verbetes .views-field-field-incial-do-verbete {font-size: 36px;text-transform: uppercase;padding-right: 20px;}
+.view-administra-o-de-verbetes td.views-field-title {width:259px;}
+.view-administra-o-de-verbetes td.views-field-field-autoria {width:559px;}
+.view-administra-o-de-verbetes td.views-field-title a {font-size: 20px;color: #222;text-decoration: none;padding-right: 20px;}
+.view-administra-o-de-verbetes .views-field-title a:hover {text-decoration: underline;}
+.view-administra-o-de-verbetes th,
+.page-user .view-administra-o-de-verbetes th a {text-align: left;font-size: 14px;text-transform: uppercase;letter-spacing: .02em;font-weight: bold;color: #222;text-decoration: none;}
+.view-administra-o-de-verbetes tr.even, 
+.view-administra-o-de-verbetes tr.odd {background-color: #fff;border-top: 1px solid #ccc;}
+.view-administra-o-de-verbetes .views-field-edit-node a {color: red;text-decoration: none;}
+.view-administra-o-de-verbetes .views-field-edit-node a:hover {text-decoration: underline;}
+
+/* 
+ * COMUM NA ADMINISTRAÇÃO
+ */
+
+.logged-in .tabs-primary {position: absolute;top: 40px;z-index: 4;}
+.logged-in .tabs-primary .is-active {display: none;}
+.logged-in ul.tabs-primary  {padding: 0;text-transform: lowercase;}
+.logged-in .tabs-primary li {list-style: none;display: inline-block;}
+.logged-in .tabs-primary a {text-decoration: none;color: red;padding: 3px 10px;border: 1px solid red;border-radius: 3px;}
+.logged-in .tabs-primary a:hover {background-color: red;color: #fff;}
+.messages {position: absolute;top:39px;left: 171px;z-index: -1;max-width: 400px;}
+/* título, rótulo, inputs e fieldset */
+.page-node-edit #main #page-title {position: absolute;top: 64px;left: 180px;z-index: -1;font-size: 16px;padding: 0;color: red;margin: 0;}
+.page-node-edit label,
+.page-node-add label {font-size: 12px;letter-spacing: 0.2em;text-transform: uppercase;font-weight: normal;}
+.page-node-edit .node-form input,
+.page-node-add .node-form input {font-size: 21px;font-family: georgia;border: 1px solid #ccc;padding: 5px;}
+.page-node-edit .node-form fieldset,
+.page-node-add .node-form fieldset {display: none;}
+/* ckeditor */
+.cke.cke_chrome {box-shadow: none;width: 618px !important; }
+.cke .cke_inner .cke_top {background-color: #fff;background-image: none;}
+.cke .cke_inner .cke_toolgroup {background-color: #fff;background-image: none;}
+html body.cke_editable {font-family: Georgia;font-size: 19px; line-height: 30px;}
+.cke .cke_inner .cke_bottom {background-color: #fff;background-image: none;z-index: 1;}
+/* botão de salvar */
+.page-node-edit #edit-actions input,
+.page-node-add #edit-actions input {text-decoration: none;color: red;padding: 3px 10px;border: 1px solid red;border-radius: 3px;text-transform: lowercase;background-color: #fff;margin-right: 5px;font-size: 16px;}
+.page-node-edit #edit-actions input:hover,
+.page-node-add #edit-actions input:hover {background-color: red;color: #fff;}
+
+/* --- institucional --- */
+.page-node-edit.node-type-institucional #footer {display: none;}
+.node-institucional-form .form-wrapper {margin-bottom: 50px;}
+.node-institucional-form .tabledrag-toggle-weight-wrapper {display: none;}
+.node-institucional-form #edit-title {font-size: 36px;width: 620px;margin-bottom: 50px;}
+.node-institucional-form #edit-field-logo-ea {position: absolute;left: 650px;top: 131px;z-index: -1;}
+.node-institucional-form #edit-field-logo-ea label {display: none;}
+.node-institucional-form #edit-field-logo-ea input {border: none;font-size: 320px;width: 580px;letter-spacing: .35em;height: 300px;}
+.node-institucional-form #edit-field-ficha-tecnica {position: absolute;left: 660px;top: 478px;z-index: 8;}
+.node-institucional-form #edit-field-ficha-tecnica .cke.cke_chrome {width: 300px !important;}
+.node-institucional-form #edit-field-orientacao-geral-obra-1- .cke_contents {height: 150px !important;}
+.node-institucional-form #field-tipos-de-verbetes-values tbody tr {width: 400px;float: left;}
+.node-institucional-form #field-tipos-de-verbetes-values .cke.cke_chrome {width: 350px !important;}
+.node-institucional-form #edit-field-introducao {width: 600px;}
+.node-institucional-form input.field-add-more-submit {text-decoration: none;color: red;padding: 3px 10px;border: 1px solid red;border-radius: 3px;text-transform: lowercase;background-color: #fff;}
+input.field-add-more-submit:hover {background-color: red;color: #fff;}
+.node-institucional-form #edit-field-logos fieldset {display: block;}
+.node-institucional-form #edit-field-logos thead {display: none;}
+.node-institucional-form #edit-field-logos tbody tr {width: 250px;float: left;}
+
+/* --- exceções --- */
+.page-node-1.page-node-edit #edit-field-orientacao-geral-obra-1-,
+.page-node-1.page-node-edit #edit-field-orientaco-geral-obra-2-,
+.page-node-1.page-node-edit #edit-field-tipos-de-verbetes {display: none;}
+
+.page-node-11 .node-institucional-form {margin-top: 300px;}
+.page-node-11.page-node-edit #edit-field-introducao,
+.page-node-11.page-node-edit #edit-field-ficha-tecnica,
+.page-node-11.page-node-edit #edit-field-orientacao-geral-obra-1-,
+.page-node-11.page-node-edit #edit-field-logos {display: none;}
+
+.page-node-12 .node-institucional-form {margin-top: 300px;}
+.page-node-12.page-node-edit #edit-field-ficha-tecnica,
+.page-node-12.page-node-edit #edit-field-orientacao-geral-obra-1-,
+.page-node-12.page-node-edit #edit-field-orientaco-geral-obra-2-,
+.page-node-12.page-node-edit #edit-field-tipos-de-verbetes,
+.page-node-12.page-node-edit #edit-field-logos {display: none;}
+
+/* --- verbete --- */
+.page-node-edit.node-type-verbete {margin-top: 155px;}
+.node-verbete-form .form-wrapper {margin-bottom: 20px;}
+.node-verbete-form #edit-field-verbete {width: 706px;}
+.node-verbete-form #edit-title {font-size: 36px;width: 620px;margin-bottom: 50px;}
+.node-verbete-form #edit-field-titulo-do-indice-alfabetic {width: 620px;}
+.node-verbete-form #edit-field-incial-do-verbete {position: fixed;left: 660px;top:154px;}
+.node-verbete-form #edit-field-incial-do-verbete input {font-size: 320px;line-height: 223px;text-transform: uppercase;width: 300px;text-align: center;height: 312px;}
+.node-verbete-form #edit-field-tipo-de-verbete {position: fixed;left: 660px;top:500px;}
+.node-verbete-form #edit-field-autoria {position: fixed;left: 980px;top:154px;width: 300px;}
+.node-verbete-form #edit-field-autoria .cke.cke_chrome {width: 298px !important;}
+.node-verbete-form #edit-field-autoria .cke_contents {height: 100px !important;}
+.node-verbete-form #edit-field-bibliografia {position: fixed;left: 980px;top:354px;width: 300px;}
+.node-verbete-form #edit-field-bibliografia .cke.cke_chrome {width: 298px !important;}
+.node-verbete-form #edit-field-bibliografia .cke_contents {height: 150px !important;}
+.node-verbete-form #edit-field-palavras-chave {position: fixed;left: 980px;top:604px;width: 300px;}
+.node-verbete-form .description {line-height: 1.25em;color: #444;margin-top: 5px;}
+.node-verbete-form .vertical-tabs {width: 378px;margin-top: 56px;}
+.node-verbete-form #edit-field-referencias-verbete {width: 620px;}
+.vertical-tabs ul.vertical-tabs-list li.selected {height: 220px;}
+
+#block-views-aux-edicao-block {position: fixed;left: 659px;top: 56px;background-color: #fff;height: 50px;width: 301px;overflow: hidden;}
+#block-views-aux-edicao-block.ativo {height: 100%;overflow-y:scroll; width: 320px;}
+#block-views-aux-edicao-block h2 {border-radius: 3px;border: 1px red solid;background-color: #fff;color: red;text-transform: lowercase;font-weight: normal;font-size: 16px;margin: 6px 0px;padding: 5px 10px; line-height: 1em;width: 125px;position: fixed;}
+#block-views-aux-edicao-block h2:hover,
+#block-views-aux-edicao-block h2.ativo {background-color: red;color:#fff;}
+.view-aux-edicao label {line-height: 1.4em;margin:52px 0 13px 0; }
+.view-aux-edicao input {width: 298px; border:1px solid #ccc;height: 55px;padding: 5px;font-size: 20px;}
+.view-aux-edicao .views-exposed-widget input[type=submit] {border-radius: 3px;border: 1px red solid;background-color: #fff;color: red;text-transform: lowercase;font-weight: normal;font-size: 16px;margin: 6px 0px;padding: 5px 10px; line-height: 1em;width: 75px;height: 30px;}
+
+/* palavras-chave */
+#taxonomy-form-term .form-item-description-value,
+#taxonomy-form-term fieldset {display: none;}
+#taxonomy-overview-terms .form-actions input[type=submit], #taxonomy-form-term .form-actions input[type=submit]{color: red;border: 1px solid red;border-radius: 3px;padding: 3px 10px;text-decoration: none;background-color: #fff;margin: 20px 10px 40px 0;}
+form .form-actions a {color: red;border: 1px solid red;border-radius: 3px;padding: 3px 10px;text-decoration: none;background-color: #fff;margin: 20px 10px 0 0;}
+
+.page-admin-structure-taxonomy .tabs-primary {display: none;}
+.page-admin-structure-taxonomy #page-title {margin-top: 155px;padding-bottom: 20px;}
+.page-admin-structure-taxonomy #block-system-help p {width: 600px; font-size: 16px;line-height: 1.4em;}
+
+.page-admin-structure-taxonomy .tabledrag-toggle-weight-wrapper {display: none;}
+.page-admin-structure-taxonomy table a {color: red;text-decoration: none;}
+.page-admin-structure-taxonomy table a:hover {text-decoration: underline;}
+.page-admin-structure-taxonomy table {width: 600px;}
+.page-admin-structure-taxonomy tr.even, 
+.page-admin-structure-taxonomy tr.odd {background-color: #fff;border-top: 1px solid #ccc;}
