@@ -168,7 +168,7 @@ body {font-family: "Georgia", "Lucida Serif", Serif;color:#222;/*background-imag
   .menu .item {width: 300px;margin-right: 17px;}
   .menu .item.ea {margin-right: 16px;}
   .menu ul {margin: 0;padding: 0; display: inline-block; }
-  .menu li {display: inline-block;margin: 0;padding:20px 0;}
+  .menu li {display: inline-block;margin: 0;padding:0;}
   .menu .active li:last-child {margin: 0 0 0 15px;position: relative;top: 4px;}
 
   /* --- institucional --- */
