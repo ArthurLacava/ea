@@ -176,7 +176,8 @@ body {font-family: "Georgia", "Lucida Serif", Serif;color:#222;/*background-imag
   #page-title, .pane-title {font-size: 36px;font-weight: normal;padding-bottom: 100px;}
   .field-name-field-logo-ea {position: absolute;top: 118px;left: 648px;font-size: 320px;line-height: 320px;letter-spacing: .4em;z-index: -1;margin: 0;padding: 0;height: 237px;}
   .page-home .field-name-field-logo-ea {top: 115px;}
-  .field-name-field-ficha-tecnica {position: absolute;top: 514px;left: 660px;z-index: -1;text-align: left;margin: 0;}
+  .field-name-field-ficha-tecnica {position: absolute;top: 514px;left: 660px;z-index: 1;text-align: left;margin: 0;}
+  .field-name-field-ficha-tecnica a {color:#222;text-decoration:none;}
   .field-name-field-ficha-tecnica p {font-size: 16px;line-height: 22.6px;}
   .field-name-field-ficha-tecnica strong {font-size: 14px;letter-spacing: .2em;text-transform:uppercase;}
   .field-name-field-orientacao-geral-obra-1- .field-label {font-size: 36px;font-weight: normal;padding-top: 100px;padding-bottom: 50px;}  
