@@ -228,7 +228,7 @@ body {font-family: "Georgia", "Lucida Serif", Serif;color:#222;/*background-imag
   .celula:hover .um-ou-outro {display: block;}
   .celula .um-ou-outro .previa {cursor: pointer;position: absolute;top: 0;left: 0;height:40px;padding-bottom: 113px;width: 300px;text-align: center;z-index: 10;opacity: .2;}
   .celula .um-ou-outro .previa:hover {opacity: 1;}
-  .celula .um-ou-outro .inicial-verbete {position: absolute;top: 40px;left: 0;width: 300px; height: 307px;}
+  .celula .um-ou-outro .inicial-verbete {position: absolute;top: 40px;left: 0;width: 300px; height: 307px;text-align:center;}
   .celula .um-ou-outro .completo {cursor: pointer;position: absolute;top: 153px;left: 0;height:40px;padding-top: 134px;width: 300px;text-align: center;z-index: 10;opacity: .2;}
   .celula .um-ou-outro .completo a {text-decoration: none;padding-top: 134px;}
   .celula .um-ou-outro .completo:hover {opacity:1;}
