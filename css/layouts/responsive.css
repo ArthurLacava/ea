@@ -195,8 +195,8 @@ body {font-family: "Georgia", "Lucida Serif", Serif;color:#222;/*background-imag
   .field-name-field-logos .field-item:last-child {margin-right: 0px;}
 
   /* --- verbete individual --- */
-  .img300 {float: right;width: 290px;}
-  .img600 {float: right;width: 600px;}
+  .img300 {float: right;width: 290px; margin-bottom: 40px; margin-right:20px;}
+  .img600 {float: right;width: 600px; margin-bottom: 40px; margin-right:20px;}
   .field-name-field-verbete .caption {font-size: 8px;text-transform: uppercase;letter-spacing: .2em;position: relative; float: right;}
   .field-name-field-verbete .caption .lgd-img {position: absolute;right: 0px;top: -25px;}
   .pane-node-field-tipo-de-verbete {position: absolute;top:125px;color: #ccc;font-size: 14px;font-weight: bold;letter-spacing: 0.2em;text-transform: uppercase;}
