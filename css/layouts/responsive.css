@@ -166,7 +166,7 @@ body {font-family: "Georgia", "Lucida Serif", Serif;color:#222;/*background-imag
   .menu {padding:10px 0;}
   .container-inline {float:right;display:inline-block;}
   .menu .item {width: 300px;margin-right: 17px;}
-  .menu .item:nth-child(4) {width: 100px;}
+  .menu .item:nth-child(4) {width: 0px;}
   .menu .item.ea {margin-right: 16px;}
   .menu ul {margin: 0;padding: 0; display: inline-block; }
   .menu li {display: inline-block;margin: 0;padding:0;}
