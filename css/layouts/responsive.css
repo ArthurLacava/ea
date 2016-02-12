@@ -223,7 +223,7 @@ body {font-family: "Georgia", "Lucida Serif", Serif;color:#222;/*background-imag
 }
 ::-webkit-scrollbar-thumb. {
     border-radius: 10px;
-    background-color: rgba(156, 156, 156, .6);
+    background-color: rgba(56, 56, 56, .6);
 }
   .rotulo-verbete .biblio p {margin: 20px 0;}
   .node-type-verbete .pane-node-field-verbete {width: 600px;margin-bottom: 100px;margin-top: 310px;}
