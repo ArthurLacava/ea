@@ -219,7 +219,7 @@ body {font-family: "Georgia", "Lucida Serif", Serif;color:#222;/*background-imag
 }
 
   ::-webkit-scrollbar-track {
-    background-color: rgba(57,57,57, .6);
+    background-color: rgba(230,230,230, .6);
     border-radius: 8px;
 }
 ::-webkit-scrollbar-thumb {
