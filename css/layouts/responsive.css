@@ -213,16 +213,16 @@ body {font-family: "Georgia", "Lucida Serif", Serif;color:#222;/*background-imag
   .view-verbete-rotulo .rotulo-verbete a:hover {text-decoration: underline;}
   .rotulo-verbete .biblio {height: 260px; overflow-x:hidden;display: inline-block;overflow-y:scroll;}
     /* --- questão do scroll no safari --- */
-    ::-webkit-scrollbar {
+    ::-webkit-scrollbar.biblio {
     -webkit-appearance: none;
     width: 8px;
 }
 
-  ::-webkit-scrollbar-track {
+  ::-webkit-scrollbar-track.biblio {
     background-color: rgba(230,230,230, .6);
     border-radius: 8px;
 }
-::-webkit-scrollbar-thumb {
+::-webkit-scrollbar-thumb.biblio {
     border-radius: 8px;
     background-color: rgba(156, 156, 156, .6);
 }
