@@ -221,7 +221,7 @@ body {font-family: "Georgia", "Lucida Serif", Serif;color:#222;/*background-imag
     background-color: rgba(230,230,230, .6);
     border-radius: 10px;
 }
-::-webkit-scrollbar-thumb. {
+::-webkit-scrollbar-thumb {
     border-radius: 10px;
     background-color: rgba(56, 56, 56, .8);
 }
