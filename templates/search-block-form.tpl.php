@@ -30,9 +30,10 @@
  */
 ?>
 <nav class="menu">
-	<div class="item ea"><a href="http://ea.fflch.usp.br/lista-de-verbetes">EA</a></div>
+	<div class="item ea"><a href="http://ea.fflch.usp.br/home">EA</a></div>
     <ul class="active">
         <li class="item smallcaps"><a href="http://ea.fflch.usp.br/indice-alfabetico">índice alfabético</a></li>
+        <li class="item smallcaps"><a href="http://ea.fflch.usp.br/lista-de-verbetes">Lista de verbetes</a></li>
         <li class="item smallcaps expande">
             <a href="http://ea.fflch.usp.br/home">A Enciclopédia</a>
             <div class="expandidos">
